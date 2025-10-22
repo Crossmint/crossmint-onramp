@@ -43,7 +43,7 @@ export async function POST(req: NextRequest) {
             },
           ],
           payment: {
-            method: "basis-theory",
+            method: "checkoutcom-flow",
             receiptEmail,
           },
           recipient: {
